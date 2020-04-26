@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact info</title>
+</head>
+
+<body>
+  <h2>Contact info:</h2>
+  <ul>
+    <li>Phone: <a href="tel:+972528023380">(+972) 52 80 233 80</a></li>
+    <li>e-Mail: <a href="mailto:hanandann@gmail.com">hanandann@gmail.com</a></li>
+  </ul>
+
+<hr>
+  <form action="mailto:hanandann@gmail.com" enctype="text/plain" method="post">
+    <div class="form-example">
+      <la>Your name:</la>
+      <input name="yourName" value="" autocomplete="name" required>
+    </div>
+    <div class="form-example">
+      <la>Your Email:</la>
+      <input type="email" name="yourEmail" value="" required>
+    </div>
+    <div>
+      <la>Your Message:</la>
+      <textarea name="name" name="yourMessage" value="" rows="8" cols="80"></textarea>
+    </div>
+    <div>
+      <la>Birthdate:</la>
+      <input type="date" name="yourBirthday" value="your birthday">
+    </div>
+    <input type="submit" value="Got it!" minlength="6">
+  </form>
+</body>
+
+</html>
